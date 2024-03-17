@@ -522,12 +522,14 @@ img {
     justify-content: center;
     width: 24px;
     height: 24px;
-    fill: #f4f4fd;
+    
 }
 
 .foot-href-icons {
     margin-top: 8px;
     padding: 12px;
+    width: 40px;
+    height: 40px;
 }
 
 .foot-href-icons:hover {
@@ -555,4 +557,8 @@ img {
 
 .href-icons {
     fill: #fff;
+    width: 24px;
+    height: 24px;
+    fill: #f4f4fd;
+
 }
