@@ -108,7 +108,7 @@ img {
 
 /* ! 1 УТОЧНИТЬ ПО АКТИВАЦИИ ПСЕВДОЕЛЕМЕНТА */
 
-.first:active::after {
+.first::after {
     content: "";
     position: absolute;
     width: 100%;
