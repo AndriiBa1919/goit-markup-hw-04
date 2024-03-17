@@ -83,6 +83,10 @@ img {
     gap: 40px;
 }
 
+.first {
+    color: #404bbf;
+}
+
 .list {
     color: #2E2F42;
     font-size: 16px;
@@ -104,7 +108,7 @@ img {
 
 /* ! 1 УТОЧНИТЬ ПО АКТИВАЦИИ ПСЕВДОЕЛЕМЕНТА */
 
-.list:active::after {
+.first:active::after {
     content: "";
     position: absolute;
     width: 100%;
