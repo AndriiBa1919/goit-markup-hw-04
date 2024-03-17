@@ -149,9 +149,12 @@ img {
     text-align: center;
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images_hw1/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    max-width: 1440px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    align-items: center;
 }
 
 .title-basic {
