@@ -329,11 +329,8 @@ img {
    
 }
 
+.team-icons-link:focus,
 .team-icons-link:hover {
-    background-color: #31d0aa;
-}
-
-.team-icons-link:focus {
     background-color: #404bbf;
 }
 
@@ -523,16 +520,14 @@ img {
     display: flex;
     gap: 16px;
     justify-content: center;
+    width: 24px;
+    height: 24px;
+    fill: #f4f4fd;
 }
 
 .foot-href-icons {
     margin-top: 8px;
     padding: 12px;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot-href-icons:hover {
@@ -543,6 +538,19 @@ img {
     display: flex;
     justify-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.href-icons-link:hover,
+.href-icons-link:focus {
+    background-color: #31d0aa;
 }
 
 .href-icons {
