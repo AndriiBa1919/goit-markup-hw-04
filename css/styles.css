@@ -460,6 +460,10 @@ img {
     align-items: baseline;
 }
 
+.logo-foot-wrap {
+    margin-right: 120px;
+}
+
 .logo-web-foot {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
@@ -499,9 +503,7 @@ img {
 
 }
 
-.logo-foot-wrap {
-    margin-right: 120px;
-}
+
 
 .foot-icons-media {
     flex-direction: column;
@@ -527,13 +529,8 @@ img {
 
 .foot-href-icons {
     margin-top: 8px;
-    padding: 12px;
     width: 40px;
     height: 40px;
-}
-
-.foot-href-icons:hover {
-    background-color: #31d0aa;
 }
 
 .href-icons-link {
@@ -545,9 +542,7 @@ img {
     background-color: #4d5ae5;
     border-radius: 50%;
     align-items: center;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .href-icons-link:hover,
