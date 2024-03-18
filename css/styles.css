@@ -522,8 +522,8 @@ img {
     display: flex;
     gap: 16px;
     justify-content: center;
-    width: 24px;
-    height: 24px;
+    /* width: 24px;
+    height: 24px; */
     
 }
 
