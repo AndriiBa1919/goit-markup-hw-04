@@ -160,6 +160,7 @@ img {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     align-items: center;
+    margin: 0 auto;
 }
 
 .title-basic {
@@ -461,7 +462,7 @@ img {
 }
 
 .logo-foot-wrap {
-    margin-right: 120px;
+
 }
 
 .logo-web-foot {
@@ -500,7 +501,6 @@ img {
     margin-left: 120px;
     display: flex;
     align-items: baseline;
-
 }
 
 
